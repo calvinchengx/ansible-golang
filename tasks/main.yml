@@ -1,0 +1,4 @@
+---
+- name: Install go
+  sudo: true
+  pacman: name=go state=present
